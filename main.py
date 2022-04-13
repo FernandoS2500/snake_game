@@ -5,6 +5,7 @@ from turtle import Turtle, Screen
 snake = Turtle("square")
 screen = Screen()
 screen.setup(width=500, height=500)
+screen.bgcolor("light blue")
 screen.title("Snake Game")
 
 
